@@ -1,0 +1,12 @@
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\obj\Debug\net8.0\OnlineStore.UI.Mvp.DI.csproj.AssemblyReference.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\obj\Debug\net8.0\OnlineStore.UI.Mvp.DI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\obj\Debug\net8.0\OnlineStore.UI.Mvp.DI.AssemblyInfoInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\obj\Debug\net8.0\OnlineStore.UI.Mvp.DI.AssemblyInfo.cs
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\obj\Debug\net8.0\OnlineStore.UI.Mvp.DI.csproj.CoreCompileInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\bin\Debug\net8.0\OnlineStore.UI.Mvp.DI.deps.json
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\bin\Debug\net8.0\OnlineStore.UI.Mvp.DI.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\bin\Debug\net8.0\OnlineStore.UI.Mvp.DI.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\obj\Debug\net8.0\OnlineStore.UI.Mvp.DI.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\obj\Debug\net8.0\refint\OnlineStore.UI.Mvp.DI.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\obj\Debug\net8.0\OnlineStore.UI.Mvp.DI.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.DI\obj\Debug\net8.0\ref\OnlineStore.UI.Mvp.DI.dll

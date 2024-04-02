@@ -1,0 +1,17 @@
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.deps.json
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\bin\Debug\net8.0\OnlineStore.Domain.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\bin\Debug\net8.0\OnlineStore.Domain.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.csproj.AssemblyReference.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.AssemblyInfoInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.AssemblyInfo.cs
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.csproj.CoreCompileInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\obj\Debug\net8.0\OnlineSt.D38833A4.Up2Date
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\obj\Debug\net8.0\refint\OnlineStore.DataAccess.Providers.Infrastructure.ADO.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Infrastructure.ADO\obj\Debug\net8.0\ref\OnlineStore.DataAccess.Providers.Infrastructure.ADO.dll

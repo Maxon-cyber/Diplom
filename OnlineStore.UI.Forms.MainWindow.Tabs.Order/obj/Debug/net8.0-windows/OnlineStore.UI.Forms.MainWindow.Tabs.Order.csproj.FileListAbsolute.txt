@@ -1,0 +1,13 @@
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\bin\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.deps.json
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\bin\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\bin\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.UserControl1.resources
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.csproj.GenerateResource.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.AssemblyInfoInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.AssemblyInfo.cs
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.csproj.CoreCompileInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\obj\Debug\net8.0-windows\refint\OnlineStore.UI.Forms.MainWindow.Tabs.Order.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.Order.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Order\obj\Debug\net8.0-windows\ref\OnlineStore.UI.Forms.MainWindow.Tabs.Order.dll

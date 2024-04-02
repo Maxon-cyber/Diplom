@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OnlineStore.DataAccess.Providers.Infrastructure.Abstractions/1.0.0": {
+        "dependencies": {
+          "OnlineStore.Domain": "1.0.0"
+        },
+        "runtime": {
+          "OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.dll": {}
+        }
+      },
+      "OnlineStore.Domain/1.0.0": {
+        "runtime": {
+          "OnlineStore.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnlineStore.DataAccess.Providers.Infrastructure.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
