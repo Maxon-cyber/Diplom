@@ -1,46 +1,37 @@
-﻿using OnlineStore.Domain.Attributes;
+﻿using OnlineStore.Domain.Common.Attributes;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
-using System.Diagnostics.CodeAnalysis;
 
 namespace OnlineStore.Domain.User;
 
 public sealed class UserEntity() : Entity
 {
-    [NotNull]
-    [ColumnData(ColumnName = "name", SqlDbType = SqlDbType.NChar)]
+    [ColumnData(ColumnName = "name", DbType = DbType.String)]
     public string Name { get; init; }
 
-    [NotNull]
-    [ColumnData(ColumnName = "second_name", SqlDbType = SqlDbType.NChar)]
+    [ColumnData(ColumnName = "second_name", DbType = DbType.String)]
     public string SecondName { get; init; }
 
-    [NotNull]
-    [ColumnData(ColumnName = "patronymic", SqlDbType = SqlDbType.NChar)]
+    [ColumnData(ColumnName = "patronymic", DbType = DbType.String)]
     public string Patronymic { get; init; }
 
-    [NotNull]
-    [ColumnData(ColumnName = "gender", SqlDbType = SqlDbType.NChar)]
+    [ColumnData(ColumnName = "gender", DbType = DbType.String)]
     public Gender Gender { get; init; }
 
-    [NotNull]
-    [ColumnData(ColumnName = "age", SqlDbType = SqlDbType.SmallInt)]
+    [ColumnData(ColumnName = "age", DbType = DbType.Int32)]
     public uint Age { get; init; }
 
-    [NotNull]
-    [ColumnData(ColumnName = "location", SqlDbType = SqlDbType.BigInt)]
-    public Location Location { get; init; }
-
-    [NotNull]
-    [ColumnData(ColumnName = "login", SqlDbType = SqlDbType.NChar)]
+    [ColumnData(ColumnName = "login", DbType = DbType.String)]
     public string Login { get; init; }
 
-    [NotNull]
-    [ColumnData(ColumnName = "password", SqlDbType = SqlDbType.NChar)]
-    public string Password { get; init; }
+    [ColumnData(ColumnName = "password", DbType = DbType.Binary)]
+    public byte[] Password { get; init; }
 
-    [NotNull]
-    [ColumnData(ColumnName = "role", SqlDbType = SqlDbType.NChar)]
+    [ColumnData(ColumnName = "role", DbType = DbType.String)]
     public Role Role { get; init; }
+
+    [NotMapped]
+    public Location Location { get; set; }
 
     public override string ToString()
        => $"{Name} {SecondName} {Patronymic}";

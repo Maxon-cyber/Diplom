@@ -3,6 +3,7 @@ C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\obj\Debug\net8.0\Onli
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\obj\Debug\net8.0\OnlineStore.Service.AssemblyInfoInputs.cache
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\obj\Debug\net8.0\OnlineStore.Service.AssemblyInfo.cs
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\obj\Debug\net8.0\OnlineStore.Service.csproj.CoreCompileInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\obj\Debug\net8.0\OnlineStore.Service.sourcelink.json
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.Service.deps.json
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.Service.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.Service.pdb
@@ -11,12 +12,14 @@ C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\Onli
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Abstractions.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Repositories.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.Domain.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.DataAccess.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Infrastructure.ADO.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Abstractions.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Repositories.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\bin\Debug\net8.0\OnlineStore.Domain.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\obj\Debug\net8.0\OnlineSt.6B963662.Up2Date
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service\obj\Debug\net8.0\OnlineStore.Service.dll

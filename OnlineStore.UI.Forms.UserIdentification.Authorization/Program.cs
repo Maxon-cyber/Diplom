@@ -1,9 +1,10 @@
 using Microsoft.Extensions.Configuration;
 using OnlineStore.DataAccess;
-using OnlineStore.DataAccess.Providers.Relational.Abstractions.Models;
+using OnlineStore.DataAccess.Providers.Relational.Abstractions.Common.Models;
 using OnlineStore.Service;
 using OnlineStore.UI.Forms.MainWindow;
 using OnlineStore.UI.Forms.MainWindow.Tabs.ProductShowcase;
+using OnlineStore.UI.Forms.MainWindow.Tabs.ProductView;
 using OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard;
 using OnlineStore.UI.Forms.MainWindow.Tabs.UserAccount;
 using OnlineStore.UI.Forms.UserIdentification.Registration;
@@ -16,6 +17,7 @@ using OnlineStore.UI.Mvp.Presenters.MainWindow.Tabs;
 using OnlineStore.UI.Mvp.Presenters.UserIdentification;
 using OnlineStore.UI.Mvp.Views.MainWindow;
 using OnlineStore.UI.Mvp.Views.MainWindow.Tabs;
+using OnlineStore.UI.Mvp.Views.MainWindow.Tabs.Product;
 using OnlineStore.UI.Mvp.Views.UserIdentification;
 
 namespace OnlineStore.UI.Forms.UserIdentification.Authorization;
@@ -60,20 +62,21 @@ internal static class Program
             },
         };
 
-        applicationController.Container.Register<AuthorizationPresenter>(Lifetime.Singleton, asSelf: true)
-                                       .Register<RegistrationPresenter>(Lifetime.Singleton, asSelf: true)
-                                       .Register<MainWindowPresenter>(Lifetime.Singleton, asSelf: true)
-                                       .Register<ShoppingCartPresenter>(Lifetime.Singleton, asSelf: true)
-                                       .Register<ProductShowcasePresenter>(Lifetime.Singleton, asSelf: true)
-                                       .Register<UserAccountPresenter>(Lifetime.Singleton, asSelf: true)
+        applicationController.Container.Register<AuthorizationPresenter>(asSelf: true)
+                                       .Register<RegistrationPresenter>(asSelf: true)
+                                       .Register<MainWindowPresenter>(asSelf: true)
+                                       .Register<ShoppingCartPresenter>(asSelf: true)
+                                       .Register<ProductShowcasePresenter>(asSelf: true)
+                                       .Register<UserAccountPresenter>(asSelf: true)
                                        .RegisterView<IAuthorizationView, AuthorizationForm>(Lifetime.Singleton)
-                                       .RegisterView<IRegistrationView, RegistrationControl>()
+                                       .RegisterView<IRegistrationView, RegistrationControl>(Lifetime.Singleton)
                                        .RegisterView<IMainWindowView, MainWindowForm>(Lifetime.Singleton)
                                        .RegisterView<IUserAccountView, UserAccountControl>(Lifetime.Singleton)
                                        .RegisterView<IProductShowcaseView, ProductShowcaseControl>(Lifetime.Singleton)
                                        .RegisterView<IShoppingCartView, ShoppngCartControl>(Lifetime.Singleton)
-                                       .RegisterWithConstructor<DatabaseFacade>(nameof(parametersOfAllDatabases), parametersOfAllDatabases, Lifetime.Singleton)
-                                       .Register<ServiceFacade>()
+                                       .RegisterView<IProductView, ProductViewControl>(Lifetime.Singleton)
+                                       .RegisterWithConstructor<DatabaseFacade>(nameof(parametersOfAllDatabases), parametersOfAllDatabases)
+                                       .Register<ServiceFacade>(Lifetime.Singleton)
                                        .RegisterInstance(_context, Lifetime.Singleton)
                                        .RegisterInstance<IApplicationController>(applicationController)
                                        .Build();

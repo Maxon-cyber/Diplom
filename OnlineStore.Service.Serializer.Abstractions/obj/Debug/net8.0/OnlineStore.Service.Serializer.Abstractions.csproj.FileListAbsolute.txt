@@ -1,0 +1,5 @@
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service.Serializer.Abstractions\obj\Debug\net8.0\OnlineStore.Service.Serializer.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service.Serializer.Abstractions\obj\Debug\net8.0\OnlineStore.Service.Serializer.Abstractions.AssemblyInfoInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service.Serializer.Abstractions\obj\Debug\net8.0\OnlineStore.Service.Serializer.Abstractions.AssemblyInfo.cs
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service.Serializer.Abstractions\obj\Debug\net8.0\OnlineStore.Service.Serializer.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.Service.Serializer.Abstractions\obj\Debug\net8.0\OnlineStore.Service.Serializer.Abstractions.sourcelink.json

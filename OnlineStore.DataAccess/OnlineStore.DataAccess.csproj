@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.csproj" />
+    <ProjectReference Include="..\OnlineStore.DataAccess.Providers.Relational.Repositories\OnlineStore.DataAccess.Providers.Relational.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

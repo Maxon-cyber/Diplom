@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zpdgUOVoHW+g96LCr0iwxDRdO/6OTGTJkxAcLH+80YawKIESiiEC76jOCCEGvl9N1QIlQ9Csog6Hl5eqQdkYng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Abstractions\\OnlineStore.Service.Serializer.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\рс\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

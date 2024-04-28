@@ -1,10 +1,8 @@
-﻿using OnlineStore.Service.Product;
-using OnlineStore.Service.User;
+﻿using OnlineStore.Service.SqlServer;
 
 namespace OnlineStore.Service;
 
 public sealed partial class ServiceFacade
 {
-    private readonly Lazy<IUserService> _userService = new Lazy<IUserService>(() => new UserService(databaseFacade));
-    private readonly Lazy<IProductService> _productService = new Lazy<IProductService>(() => new ProductService(databaseFacade));
+    private readonly Lazy<SqlServerService> _sqlServerService = new Lazy<SqlServerService>(() => new SqlServerService(databaseFacade.Relational.SqlServer));
 }

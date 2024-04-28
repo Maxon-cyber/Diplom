@@ -10,6 +10,7 @@ namespace OnlineStore.UI.Mvp.Presenters.MainWindow;
 public sealed class MainWindowPresenter : Presenter<IMainWindowView, UserEntity>
 {
     private UserEntity _user;
+    private readonly Panel _mainPanel;
 
     public MainWindowPresenter(IMainWindowView view, IUserAccountView userAccountView, IProductShowcaseView productShowcaseView, IShoppingCartView shoppingCartView, IApplicationController controller)
         : base(view, controller)
@@ -17,6 +18,8 @@ public sealed class MainWindowPresenter : Presenter<IMainWindowView, UserEntity>
         View.UserAccount += () => OpenUserAccount(userAccountView);
         View.ProductShowcase += () => OpenProductShowcase(productShowcaseView);
         View.ShoppingCart += () => OpenShoppingCart(shoppingCartView);
+
+        _mainPanel = View.Instance.Controls.Find("panelMain", false).FirstOrDefault() as Panel;
     }
 
     public override void Run(UserEntity argument)
@@ -26,11 +29,11 @@ public sealed class MainWindowPresenter : Presenter<IMainWindowView, UserEntity>
     }
 
     private void OpenUserAccount(IUserAccountView userAccountView)
-       => Controller.RunAsChildControl<UserAccountPresenter, UserEntity>(_user, View.Instance, userAccountView.Instance);
+       => Controller.RunAsChildControl<UserAccountPresenter, UserEntity>(_user, _mainPanel, userAccountView.Instance);
 
     private void OpenProductShowcase(IProductShowcaseView productShowcaseView)
-       => Controller.RunAsChildControl<ProductShowcasePresenter>(View.Instance, productShowcaseView.Instance);
+       => Controller.RunAsChildControl<ProductShowcasePresenter>(_mainPanel, productShowcaseView.Instance);
 
     private void OpenShoppingCart(IShoppingCartView shoppingCartView)
-       => Controller.RunAsChildControl<ShoppingCartPresenter, ulong>(_user.Id, View.Instance, shoppingCartView.Instance);
+       => Controller.RunAsChildControl<ShoppingCartPresenter, Guid>(_user.Id, _mainPanel, shoppingCartView.Instance);
 }

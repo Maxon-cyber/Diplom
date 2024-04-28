@@ -55,6 +55,8 @@ public abstract class Presenter<TView, TArgument> : IPresenter<TArgument>
 
     public virtual void RunAsChildComponent(TArgument argument, Control parentControl, UserControl childControl)
     {
+        Run(argument);
+
         childControl.BorderStyle = BorderStyle.None;
         childControl.Dock = DockStyle.Fill;
         parentControl.Controls.Add(childControl);

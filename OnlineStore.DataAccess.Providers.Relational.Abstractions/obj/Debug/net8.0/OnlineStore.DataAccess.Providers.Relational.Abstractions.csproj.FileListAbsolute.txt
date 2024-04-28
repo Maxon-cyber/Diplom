@@ -10,6 +10,7 @@ C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Relation
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Relational.Abstractions\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Abstractions.AssemblyInfoInputs.cache
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Relational.Abstractions\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Abstractions.AssemblyInfo.cs
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Relational.Abstractions\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Relational.Abstractions\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Abstractions.sourcelink.json
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Relational.Abstractions\obj\Debug\net8.0\OnlineSt.7DCC55C3.Up2Date
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Relational.Abstractions\obj\Debug\net8.0\OnlineStore.DataAccess.Providers.Relational.Abstractions.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.DataAccess.Providers.Relational.Abstractions\obj\Debug\net8.0\refint\OnlineStore.DataAccess.Providers.Relational.Abstractions.dll

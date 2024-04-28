@@ -1,8 +1,8 @@
 ﻿using OnlineStore.DataAccess.Databases.Exceptions;
-using OnlineStore.DataAccess.Providers.Relational.Abstractions;
-using OnlineStore.DataAccess.Providers.Relational.Abstractions.Models;
+using OnlineStore.DataAccess.Providers.Relational.Abstractions.Common.Models;
 using OnlineStore.DataAccess.Providers.Relational.Database.SqlServer;
-using System.Diagnostics.CodeAnalysis;
+using OnlineStore.DataAccess.Providers.Relational.Repositories.SqlServer;
+using System.Reflection;
 
 namespace OnlineStore.DataAccess.Databases;
 
@@ -13,15 +13,10 @@ file enum ListOfRelationalDatabases
 
 public sealed class RelationalDbStrategy : IDisposable, IAsyncDisposable
 {
-    private readonly List<DbProvider> _providers;
-
-    [MemberNotNullWhen(true, nameof(SqlServer))]
-    public SqlServer SqlServer { get; }
+    public SqlServerFacade SqlServer { get; }
 
     internal RelationalDbStrategy(IDictionary<string, ConnectionParameters> parametersOfAllDatabases)
     {
-        _providers = new List<DbProvider>();
-
         foreach (string currentKey in parametersOfAllDatabases.Keys)
         {
             ConnectionParameters currentValue = parametersOfAllDatabases[currentKey];
@@ -32,8 +27,7 @@ public sealed class RelationalDbStrategy : IDisposable, IAsyncDisposable
             switch (result)
             {
                 case ListOfRelationalDatabases.SqlServer:
-                    SqlServer = new SqlServer(currentValue);
-                    _providers.Add(SqlServer);
+                    SqlServer = new SqlServerFacade(new SqlServerProvider(currentValue));
                     break;
             }
         }
@@ -41,13 +35,19 @@ public sealed class RelationalDbStrategy : IDisposable, IAsyncDisposable
 
     public void Dispose()
     {
-        foreach (DbProvider provider in _providers)
-            provider.Dispose();
+        PropertyInfo[] properties = GetType().GetProperties();
+
+        foreach (PropertyInfo propertyInfo in properties)
+            if (propertyInfo.PropertyType is IDisposable disposable)
+                disposable.Dispose();
     }
 
     public async ValueTask DisposeAsync()
     {
-        foreach (DbProvider provider in _providers)
-            await provider.DisposeAsync();
+        PropertyInfo[] properties = GetType().GetProperties();
+
+        foreach (PropertyInfo propertyInfo in properties)
+            if (propertyInfo.PropertyType is IAsyncDisposable asyncDisposable)
+                await asyncDisposable.DisposeAsync();
     }
 }

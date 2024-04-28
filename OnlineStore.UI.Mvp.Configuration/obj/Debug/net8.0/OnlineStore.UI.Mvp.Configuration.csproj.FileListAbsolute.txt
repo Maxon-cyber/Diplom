@@ -1,11 +1,12 @@
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\bin\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.deps.json
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\bin\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\bin\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\obj\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.csproj.AssemblyReference.cache
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\obj\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\obj\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.AssemblyInfoInputs.cache
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\obj\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.AssemblyInfo.cs
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\obj\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.csproj.CoreCompileInputs.cache
-C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\bin\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.deps.json
-C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\bin\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.dll
-C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\bin\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\obj\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.sourcelink.json
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\obj\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\obj\Debug\net8.0\refint\OnlineStore.UI.Mvp.Configuration.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Mvp.Configuration\obj\Debug\net8.0\OnlineStore.UI.Mvp.Configuration.pdb

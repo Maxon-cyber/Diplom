@@ -1,6 +1,4 @@
-﻿using OnlineStore.UI.Mvp.Common;
-using OnlineStore.UI.Mvp.Views.UserIdentification;
-using static OnlineStore.Domain.User.UserParameters;
+﻿using OnlineStore.UI.Mvp.Views.UserIdentification;
 
 namespace OnlineStore.UI.Forms.UserIdentification.Registration;
 
@@ -10,7 +8,7 @@ public sealed partial class RegistrationControl : UserControl, IRegistrationView
 
     public event Action ReturnToAuthorization;
 
-    public TextBox[] UserInput { get; }
+    private readonly TextBox[] _userInput;
 
     public UserControl Instance => this;
 
@@ -18,7 +16,7 @@ public sealed partial class RegistrationControl : UserControl, IRegistrationView
     {
         InitializeComponent();
 
-        UserInput = Controls.OfType<TextBox>().ToArray();
+        _userInput = Controls.OfType<TextBox>().ToArray();
     }
 
     public new void Show()
@@ -27,31 +25,17 @@ public sealed partial class RegistrationControl : UserControl, IRegistrationView
     public void Close()
         => ((Form)TopLevelControl).Close();
 
-    public void ShowMessage(string message, MessageLevel messageLevel = MessageLevel.Information)
-    {
-        throw new NotImplementedException();
-    }
-
     private void BtnRegistration_Click(object sender, EventArgs e)
     {
-        IEnumerable<TextBox> emptyTextBoxes = UserInput.Where(tb => string.IsNullOrWhiteSpace(tb.Text));
+        errorProvider.Clear();
+
+        IEnumerable<TextBox> emptyTextBoxes = _userInput.Where(tb => string.IsNullOrWhiteSpace(tb.Text));
 
         if (emptyTextBoxes.Any())
         {
             foreach (TextBox textBox in emptyTextBoxes)
                 errorProvider.SetError(textBox, $"Введите значение{textBox.Name}");
 
-            return;
-        }
-
-        if (!Login.IsValid())
-        {
-            errorProvider.SetError(textBoxLogin, "Не валидные данные");
-            return;
-        }
-        else if (Password.IsValid())
-        {
-            errorProvider.SetError(textBoxPassword, "Не валидные данные");
             return;
         }
 

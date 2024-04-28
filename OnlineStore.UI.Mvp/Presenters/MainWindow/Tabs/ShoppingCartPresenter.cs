@@ -4,9 +4,9 @@ using OnlineStore.UI.Mvp.Views.MainWindow.Tabs;
 
 namespace OnlineStore.UI.Mvp.Presenters.MainWindow.Tabs;
 
-public sealed class ShoppingCartPresenter : Presenter<IShoppingCartView, ulong>
+public sealed class ShoppingCartPresenter : Presenter<IShoppingCartView, Guid>
 {
-    private ulong _userId;
+    private Guid _userId;
 
     public ShoppingCartPresenter(IShoppingCartView view, IApplicationController controller)
         : base(view, controller)
@@ -14,7 +14,7 @@ public sealed class ShoppingCartPresenter : Presenter<IShoppingCartView, ulong>
         View.Order += Order;
     }
 
-    public override void Run(ulong argument)
+    public override void Run(Guid argument)
     {
         _userId = argument;
         View.Show();

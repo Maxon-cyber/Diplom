@@ -16,7 +16,7 @@ public sealed partial class ProductShowcaseControl
     private void InitializeComponent()
     {
         tableLayoutPanel1 = new TableLayoutPanel();
-        textBox1 = new TextBox();
+        textBoxSearch = new TextBox();
         button1 = new Button();
         SuspendLayout();
         // 
@@ -34,28 +34,29 @@ public sealed partial class ProductShowcaseControl
         tableLayoutPanel1.Size = new Size(682, 264);
         tableLayoutPanel1.TabIndex = 0;
         // 
-        // textBox1
+        // textBoxSearch
         // 
-        textBox1.Location = new Point(21, 41);
-        textBox1.Name = "textBox1";
-        textBox1.Size = new Size(346, 23);
-        textBox1.TabIndex = 1;
+        textBoxSearch.Location = new Point(17, 51);
+        textBoxSearch.Name = "textBoxSearch";
+        textBoxSearch.Size = new Size(346, 23);
+        textBoxSearch.TabIndex = 1;
         // 
         // button1
         // 
-        button1.Location = new Point(418, 41);
+        button1.Location = new Point(413, 51);
         button1.Name = "button1";
         button1.Size = new Size(75, 23);
         button1.TabIndex = 2;
         button1.Text = "button1";
         button1.UseVisualStyleBackColor = true;
+        button1.Click += BtnSearch_Click;
         // 
         // ProductShowcaseControl
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
         Controls.Add(button1);
-        Controls.Add(textBox1);
+        Controls.Add(textBoxSearch);
         Controls.Add(tableLayoutPanel1);
         Name = "ProductShowcaseControl";
         Size = new Size(682, 415);
@@ -65,6 +66,6 @@ public sealed partial class ProductShowcaseControl
     #endregion
 
     private TableLayoutPanel tableLayoutPanel1;
-    private TextBox textBox1;
+    private TextBox textBoxSearch;
     private Button button1;
 }

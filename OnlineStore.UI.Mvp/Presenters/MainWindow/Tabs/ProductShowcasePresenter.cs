@@ -1,30 +1,33 @@
 ﻿using OnlineStore.Domain.Product;
 using OnlineStore.Service;
-using OnlineStore.Service.Product;
+using OnlineStore.Service.SqlServer.Product;
 using OnlineStore.UI.Mvp.Controller;
 using OnlineStore.UI.Mvp.Presenters.Abstractions;
 using OnlineStore.UI.Mvp.Presenters.MainWindow.Extensions;
 using OnlineStore.UI.Mvp.Presenters.MainWindow.Tabs.Product;
 using OnlineStore.UI.Mvp.Views.MainWindow.Tabs;
+using OnlineStore.UI.Mvp.Views.MainWindow.Tabs.Product;
 
 namespace OnlineStore.UI.Mvp.Presenters.MainWindow.Tabs;
 
 public sealed class ProductShowcasePresenter : Presenter<IProductShowcaseView>
 {
-    private readonly IProductService _poductService;
+    private readonly ProductService _poductService;
+    private readonly IProductView _productView;
     private readonly TableLayoutPanel _productShowcaseTLP;
 
-    public ProductShowcasePresenter(ServiceFacade service, IProductShowcaseView view, IApplicationController controller)
+    public ProductShowcasePresenter(ServiceFacade service, IProductView productView, IProductShowcaseView view, IApplicationController controller)
         : base(controller, view)
     {
-        _poductService = service.Product;
+        _poductService = service.SqlServer.Product;
+        _productView = productView;
         _productShowcaseTLP = View.Instance.Controls.Find("tableLauoytproductShowcase", false).FirstOrDefault() as TableLayoutPanel;
 
         View.LoadProducts += LoadProducts;
-        View.Serach += SeachProduct;
+        View.Search += SeachProduct;
     }
 
-    private async void LoadProducts()
+    private void LoadProducts()
     {
         ThreadPool.QueueUserWorkItem(async (_) =>
         {
@@ -47,9 +50,19 @@ public sealed class ProductShowcasePresenter : Presenter<IProductShowcaseView>
                 int column = index % columnTPL;
                 int row = index / columnTPL;
 
-                Controller.Run<ProductPresenter, ProductEntity>(d =>
+                UserControl userControl = _productView.Instance.Copy($"userControl{productsArray[index].Name}");
+                
+                Panel main = userControl.Controls.Find("", false).FirstOrDefault() as Panel;
+                PictureBox pictureBox = main.Controls.Find("", false).FirstOrDefault() as PictureBox;
+
+                Label[] labels = userControl.Controls.Find("panelMain", false)
+                                            .OfType<Label>()
+                                            .ToArray();
+
+                Label priceLabel = labels.Where(l => l.Name == "labelPrice").FirstOrDefault();
+                Controller.Run<ProductPresenter>(() =>
                 {
-                    _productShowcaseTLP.ThreadSafeAddition(() => _productShowcaseTLP.Controls.Add(d.Create(), column, row));
+                    _productShowcaseTLP.ThreadSafeAddition(() => _productShowcaseTLP.Controls.Add(userControl, column, row));
                 });
             }
             _productShowcaseTLP.ResumeLayout();
@@ -64,15 +77,15 @@ public sealed class ProductShowcasePresenter : Presenter<IProductShowcaseView>
         TextBox searchTextBox = View.Instance.Controls.Find("textBoxSearch", false).FirstOrDefault() as TextBox;
         if (string.IsNullOrWhiteSpace(searchTextBox.Text))
         {
-            View.ShowMessage("Введите название товара");
+            MessageBox.Show("Введите название товара", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             return;
         }
 
-        Control? needControl = _productShowcaseTLP.Controls.Find($"{searchTextBox.Text}Panel", true).FirstOrDefault();
+        Control? needControl = _productShowcaseTLP.Controls.Find($"userControl{searchTextBox.Text}", true).FirstOrDefault();
 
         if (needControl == null)
         {
-            View.ShowMessage("Элемент не найден");
+            MessageBox.Show("Товар не найден", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
         }
 

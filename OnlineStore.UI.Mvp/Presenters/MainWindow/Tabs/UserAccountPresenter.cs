@@ -1,6 +1,6 @@
 ﻿using OnlineStore.Domain.User;
 using OnlineStore.Service;
-using OnlineStore.Service.User;
+using OnlineStore.Service.SqlServer.User;
 using OnlineStore.UI.Mvp.Controller;
 using OnlineStore.UI.Mvp.Presenters.Abstractions;
 using OnlineStore.UI.Mvp.Views.MainWindow.Tabs;
@@ -15,7 +15,7 @@ public sealed class UserAccountPresenter : Presenter<IUserAccountView, UserEntit
     public UserAccountPresenter(ServiceFacade service, IUserAccountView view, IApplicationController controller)
         : base(view, controller)
     {
-        _userService = service.User;
+        _userService = service.SqlServer.User;
     }
 
     public override void Run(UserEntity argument)
@@ -26,7 +26,6 @@ public sealed class UserAccountPresenter : Presenter<IUserAccountView, UserEntit
 
     private void LoadUserData()
     {
-        View.Instance
-        View.Instance
+
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T/LHOyYp2U5yvAnjbB08MXnt7j9GKWlBMtJT+yw7uhGZtPXdyZjg5on8dySS2gmayeiPHwl9+cRzrWNwkd7Baw==",
+  "dgSpecHash": "wW2WqZDS22LOsc6pdyZH4hd+rbzyXkFdPpLXiP1tPC22q22M33BGEIfrUr4O4OWtIYs47Xa1JNLeUWIoqO2dGw==",
   "success": true,
   "projectFilePath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\рс\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\рс\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\microsoft.web.webview2.1.0.864.35.nupkg.sha512",
     "C:\\Users\\рс\\.nuget\\packages\\netescapades.configuration.yaml\\3.1.0\\netescapades.configuration.yaml.3.1.0.nupkg.sha512",
+    "C:\\Users\\рс\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\рс\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
     "C:\\Users\\рс\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\рс\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",

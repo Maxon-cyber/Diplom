@@ -32,7 +32,7 @@ public sealed partial class UserAccountControl
         // 
         // pictureBox1
         // 
-        pictureBox1.Location = new Point(141, 21);
+        pictureBox1.Location = new Point(130, 17);
         pictureBox1.Name = "pictureBox1";
         pictureBox1.Size = new Size(198, 100);
         pictureBox1.TabIndex = 0;
@@ -41,7 +41,7 @@ public sealed partial class UserAccountControl
         // label1
         // 
         label1.AutoSize = true;
-        label1.Location = new Point(62, 171);
+        label1.Location = new Point(47, 161);
         label1.Name = "label1";
         label1.Size = new Size(38, 15);
         label1.TabIndex = 1;
@@ -50,7 +50,7 @@ public sealed partial class UserAccountControl
         // label2
         // 
         label2.AutoSize = true;
-        label2.Location = new Point(234, 161);
+        label2.Location = new Point(47, 198);
         label2.Name = "label2";
         label2.Size = new Size(38, 15);
         label2.TabIndex = 2;
@@ -59,7 +59,7 @@ public sealed partial class UserAccountControl
         // label3
         // 
         label3.AutoSize = true;
-        label3.Location = new Point(242, 169);
+        label3.Location = new Point(47, 238);
         label3.Name = "label3";
         label3.Size = new Size(38, 15);
         label3.TabIndex = 3;
@@ -68,7 +68,7 @@ public sealed partial class UserAccountControl
         // label4
         // 
         label4.AutoSize = true;
-        label4.Location = new Point(250, 177);
+        label4.Location = new Point(47, 278);
         label4.Name = "label4";
         label4.Size = new Size(38, 15);
         label4.TabIndex = 4;
@@ -77,7 +77,7 @@ public sealed partial class UserAccountControl
         // label5
         // 
         label5.AutoSize = true;
-        label5.Location = new Point(258, 185);
+        label5.Location = new Point(185, 161);
         label5.Name = "label5";
         label5.Size = new Size(38, 15);
         label5.TabIndex = 5;
@@ -86,7 +86,7 @@ public sealed partial class UserAccountControl
         // label6
         // 
         label6.AutoSize = true;
-        label6.Location = new Point(266, 193);
+        label6.Location = new Point(185, 198);
         label6.Name = "label6";
         label6.Size = new Size(38, 15);
         label6.TabIndex = 6;
@@ -95,7 +95,7 @@ public sealed partial class UserAccountControl
         // label7
         // 
         label7.AutoSize = true;
-        label7.Location = new Point(274, 201);
+        label7.Location = new Point(185, 238);
         label7.Name = "label7";
         label7.Size = new Size(38, 15);
         label7.TabIndex = 7;
@@ -104,7 +104,7 @@ public sealed partial class UserAccountControl
         // label8
         // 
         label8.AutoSize = true;
-        label8.Location = new Point(282, 209);
+        label8.Location = new Point(185, 278);
         label8.Name = "label8";
         label8.Size = new Size(38, 15);
         label8.TabIndex = 8;
@@ -113,7 +113,7 @@ public sealed partial class UserAccountControl
         // label9
         // 
         label9.AutoSize = true;
-        label9.Location = new Point(290, 217);
+        label9.Location = new Point(284, 238);
         label9.Name = "label9";
         label9.Size = new Size(38, 15);
         label9.TabIndex = 9;
@@ -122,7 +122,7 @@ public sealed partial class UserAccountControl
         // label10
         // 
         label10.AutoSize = true;
-        label10.Location = new Point(231, 161);
+        label10.Location = new Point(284, 161);
         label10.Name = "label10";
         label10.Size = new Size(44, 15);
         label10.TabIndex = 10;
@@ -131,7 +131,7 @@ public sealed partial class UserAccountControl
         // label11
         // 
         label11.AutoSize = true;
-        label11.Location = new Point(239, 169);
+        label11.Location = new Point(284, 198);
         label11.Name = "label11";
         label11.Size = new Size(44, 15);
         label11.TabIndex = 11;

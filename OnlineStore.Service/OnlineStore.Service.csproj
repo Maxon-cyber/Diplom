@@ -12,6 +12,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OnlineStore.DataAccess\OnlineStore.DataAccess.csproj" />
+    <ProjectReference Include="..\OnlineStore.Service.Caching,Abstractions\OnlineStore.Service.CachingAbstractions.csproj" />
+    <ProjectReference Include="..\OnlineStore.Service.Caching\OnlineStore.Service.Caching.csproj" />
+    <ProjectReference Include="..\OnlineStore.Service.Serializer.Yaml\OnlineStore.Service.Serializer.Yaml.csproj" />
   </ItemGroup>
 
 </Project>

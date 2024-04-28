@@ -1,19 +1,15 @@
 ﻿using OnlineStore.DataAccess.Databases;
-using OnlineStore.DataAccess.Providers.Relational.Abstractions.Models;
+using OnlineStore.DataAccess.Providers.Relational.Abstractions.Common.Models;
 
 namespace OnlineStore.DataAccess;
 
 public sealed class DatabaseFacade(IDictionary<string, ConnectionParameters> parametersOfAllDatabases) : IDisposable, IAsyncDisposable
 {
-    public RelationalDbStrategy Relational { get; } = new RelationalDbStrategy(parametersOfAllDatabases);
+    public RelationalDbStrategy Relational { get; } = new RelationalDbStrategy(parametersOfAllDatabases); 
 
     public void Dispose()
-    {
-        Relational.Dispose();
-    }
+        => Relational.Dispose();
 
     public async ValueTask DisposeAsync()
-    {
-        await Relational.DisposeAsync();
-    }
+        => await Relational.DisposeAsync();
 }

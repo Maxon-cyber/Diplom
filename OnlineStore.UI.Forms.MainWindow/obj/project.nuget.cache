@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QAMM2C5KXjVXaqosivWOSKyipluxbVFtPvE6CKM1tV/UsMRheOTtLs6JtPVkRPTD5zeOS8p5RC2p0NZ/Wg8KBg==",
+  "dgSpecHash": "pF/Xx/GlncFGL3S926AOc/osRZ3y33NTe1rDEBEEbJ1RPLRUxWWPNdj3t1d0rN/hgp5IcHWEiCJhFVH7P495DA==",
   "success": true,
   "projectFilePath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Forms.MainWindow\\OnlineStore.UI.Forms.MainWindow.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\рс\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\рс\\.nuget\\packages\\microsoft.web.webview2\\1.0.864.35\\microsoft.web.webview2.1.0.864.35.nupkg.sha512",
     "C:\\Users\\рс\\.nuget\\packages\\netescapades.configuration.yaml\\3.1.0\\netescapades.configuration.yaml.3.1.0.nupkg.sha512",
+    "C:\\Users\\рс\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\рс\\.nuget\\packages\\nlog\\5.2.8\\nlog.5.2.8.nupkg.sha512",
     "C:\\Users\\рс\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\рс\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",

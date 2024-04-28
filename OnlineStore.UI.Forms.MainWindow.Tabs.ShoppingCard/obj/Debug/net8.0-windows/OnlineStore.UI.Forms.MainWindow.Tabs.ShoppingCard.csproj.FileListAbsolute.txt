@@ -1,8 +1,11 @@
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.csproj.AssemblyReference.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.ShoppngCartControl.resources
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.csproj.GenerateResource.cache
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.AssemblyInfoInputs.cache
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.AssemblyInfo.cs
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.csproj.CoreCompileInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.sourcelink.json
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.deps.json
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.pdb
@@ -11,6 +14,7 @@ C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Shop
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Infrastructure.ADO.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Abstractions.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Repositories.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.Domain.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.Service.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.UI.Mvp.Configuration.dll
@@ -22,6 +26,7 @@ C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.Shop
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Infrastructure.ADO.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Abstractions.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Repositories.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.Domain.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.Service.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\bin\Debug\net8.0-windows\OnlineStore.UI.Mvp.Configuration.pdb

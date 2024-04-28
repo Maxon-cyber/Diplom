@@ -3,7 +3,7 @@
 public interface IProductShowcaseView : IView
 {
     event Action LoadProducts;
-    event Action Serach;
+    event Action Search;
 
     UserControl Instance { get; }
 }

@@ -9,6 +9,4 @@ public interface IProductView : IView
     event Action Remove;
 
     UserControl Instance { get; }
-
-    UserControl Create(ProductEntity product);
 }

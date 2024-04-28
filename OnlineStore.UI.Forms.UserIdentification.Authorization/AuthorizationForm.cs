@@ -1,4 +1,3 @@
-using OnlineStore.UI.Mvp.Common;
 using OnlineStore.UI.Mvp.Views.UserIdentification;
 
 namespace OnlineStore.UI.Forms.UserIdentification.Authorization;
@@ -36,21 +35,6 @@ public sealed partial class AuthorizationForm : Form, IAuthorizationView
 
             _context.MainForm = this;
             Application.Run(_context);
-        }
-    }
-
-    public void ShowMessage(string message, MessageLevel messageLevel = MessageLevel.Information)
-    {
-        switch (messageLevel)
-        {
-            case MessageLevel.Information:
-                MessageBox.Show(message, "Успешно", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
-                break;
-            case MessageLevel.Error:
-                MessageBox.Show(message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
-                break;
-            default:
-                break;
         }
     }
 

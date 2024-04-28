@@ -1,23 +1,23 @@
-﻿using OnlineStore.Domain.Attributes;
+﻿using OnlineStore.Domain.Common.Attributes;
 using System.Data;
 
 namespace OnlineStore.Domain.Product;
 
 public sealed class ProductEntity() : Entity
 {
-    [ColumnData(ColumnName = "name", SqlDbType = SqlDbType.NVarChar)]
+    [ColumnData(ColumnName = "name", DbType = DbType.String)]
     public string Name { get; init; }
 
-    [ColumnData(ColumnName = "image", SqlDbType = SqlDbType.VarBinary)]
+    [ColumnData(ColumnName = "image", DbType = DbType.Binary)]
     public byte[] Image { get; init; }
 
-    [ColumnData(ColumnName = "count", SqlDbType = SqlDbType.Int)]
+    [ColumnData(ColumnName = "quantity", DbType = DbType.UInt32)]
     public uint Quantity { get; init; }
 
-    [ColumnData(ColumnName = "category", SqlDbType = SqlDbType.NVarChar)]
+    [ColumnData(ColumnName = "category", DbType = DbType.String)]
     public string Category { get; init; }
 
-    [ColumnData(ColumnName = "price", SqlDbType = SqlDbType.Money)]
+    [ColumnData(ColumnName = "price", DbType = DbType.Decimal)]
     public decimal Price { get; init; }
 
     public string ToString(string message)

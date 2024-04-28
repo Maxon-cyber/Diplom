@@ -317,6 +317,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "NLog/5.2.8": {
         "type": "package",
         "compile": {
@@ -337,7 +350,7 @@
           "System.Security.Cryptography.ProtectedData": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net8.0/System.Configuration.ConfigurationManager.dll": {
             "related": ".xml"
           }
         },
@@ -372,7 +385,7 @@
       "System.Diagnostics.EventLog/8.0.0": {
         "type": "package",
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
             "related": ".xml"
           }
         },
@@ -488,7 +501,7 @@
           "System.Configuration.ConfigurationManager": "8.0.0"
         },
         "compile": {
-          "lib/net8.0/_._": {
+          "lib/net8.0/System.Runtime.Caching.dll": {
             "related": ".xml"
           }
         },
@@ -650,11 +663,25 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "YamlDotNet/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "OnlineStore.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "OnlineStore.DataAccess.Providers.Relational.Database.SqlServer": "1.0.0"
+          "OnlineStore.DataAccess.Providers.Relational.Database.SqlServer": "1.0.0",
+          "OnlineStore.DataAccess.Providers.Relational.Repositories": "1.0.0"
         },
         "compile": {
           "bin/placeholder/OnlineStore.DataAccess.dll": {}
@@ -680,7 +707,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "OnlineStore.DataAccess.Providers.Infrastructure.Abstractions": "1.0.0"
+          "OnlineStore.DataAccess.Providers.Infrastructure.Abstractions": "1.0.0",
+          "OnlineStore.DataAccess.Providers.Relational.Abstractions": "1.0.0"
         },
         "compile": {
           "bin/placeholder/OnlineStore.DataAccess.Providers.Infrastructure.ADO.dll": {}
@@ -719,14 +747,84 @@
           "bin/placeholder/OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.dll": {}
         }
       },
+      "OnlineStore.DataAccess.Providers.Relational.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "OnlineStore.DataAccess.Providers.Relational.Database.SqlServer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnlineStore.DataAccess.Providers.Relational.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineStore.DataAccess.Providers.Relational.Repositories.dll": {}
+        }
+      },
       "OnlineStore.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
         "compile": {
           "bin/placeholder/OnlineStore.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/OnlineStore.Domain.dll": {}
+        }
+      },
+      "OnlineStore.Service.Caching/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "OnlineStore.Domain": "1.0.0",
+          "OnlineStore.Service.CachingAbstractions": "1.0.0",
+          "OnlineStore.Service.Serializer.Abstractions": "1.0.0",
+          "System.Runtime.Caching": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnlineStore.Service.Caching.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineStore.Service.Caching.dll": {}
+        }
+      },
+      "OnlineStore.Service.CachingAbstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/OnlineStore.Service.CachingAbstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineStore.Service.CachingAbstractions.dll": {}
+        }
+      },
+      "OnlineStore.Service.Serializer.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "OnlineStore.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnlineStore.Service.Serializer.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineStore.Service.Serializer.Abstractions.dll": {}
+        }
+      },
+      "OnlineStore.Service.Serializer.Yaml/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "OnlineStore.Service.CachingAbstractions": "1.0.0",
+          "OnlineStore.Service.Serializer.Abstractions": "1.0.0",
+          "YamlDotNet": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/OnlineStore.Service.Serializer.Yaml.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnlineStore.Service.Serializer.Yaml.dll": {}
         }
       }
     }
@@ -1211,6 +1309,36 @@
         "lib/netstandard2.0/Microsoft.SqlServer.Server.xml",
         "microsoft.sqlserver.server.1.0.0.nupkg.sha512",
         "microsoft.sqlserver.server.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "NLog/5.2.8": {
@@ -1994,6 +2122,33 @@
         "version.txt"
       ]
     },
+    "YamlDotNet/13.0.1": {
+      "sha512": "E1e/xFXB+Cbn7pLVlr+8E3nemEitIReVgmAMMMveADvZvXGuSGHP+1Cg6oA+SUfwXHfaXLQn4STCaPKtdIJkWA==",
+      "type": "package",
+      "path": "yamldotnet/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "images/yamldotnet.png",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/net45/YamlDotNet.dll",
+        "lib/net45/YamlDotNet.xml",
+        "lib/net47/YamlDotNet.dll",
+        "lib/net47/YamlDotNet.xml",
+        "lib/net6.0/YamlDotNet.dll",
+        "lib/net6.0/YamlDotNet.xml",
+        "lib/net7.0/YamlDotNet.dll",
+        "lib/net7.0/YamlDotNet.xml",
+        "lib/netstandard2.0/YamlDotNet.dll",
+        "lib/netstandard2.0/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.13.0.1.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
+    },
     "OnlineStore.DataAccess/1.0.0": {
       "type": "project",
       "path": "../OnlineStore.DataAccess/OnlineStore.DataAccess.csproj",
@@ -2019,16 +2174,44 @@
       "path": "../OnlineStore.DataAccess.Providers.Relational.Database.SqlServer/OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.csproj",
       "msbuildProject": "../OnlineStore.DataAccess.Providers.Relational.Database.SqlServer/OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.csproj"
     },
+    "OnlineStore.DataAccess.Providers.Relational.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../OnlineStore.DataAccess.Providers.Relational.Repositories/OnlineStore.DataAccess.Providers.Relational.Repositories.csproj",
+      "msbuildProject": "../OnlineStore.DataAccess.Providers.Relational.Repositories/OnlineStore.DataAccess.Providers.Relational.Repositories.csproj"
+    },
     "OnlineStore.Domain/1.0.0": {
       "type": "project",
       "path": "../OnlineStore.Domain/OnlineStore.Domain.csproj",
       "msbuildProject": "../OnlineStore.Domain/OnlineStore.Domain.csproj"
+    },
+    "OnlineStore.Service.Caching/1.0.0": {
+      "type": "project",
+      "path": "../OnlineStore.Service.Caching/OnlineStore.Service.Caching.csproj",
+      "msbuildProject": "../OnlineStore.Service.Caching/OnlineStore.Service.Caching.csproj"
+    },
+    "OnlineStore.Service.CachingAbstractions/1.0.0": {
+      "type": "project",
+      "path": "../OnlineStore.Service.Caching,Abstractions/OnlineStore.Service.CachingAbstractions.csproj",
+      "msbuildProject": "../OnlineStore.Service.Caching,Abstractions/OnlineStore.Service.CachingAbstractions.csproj"
+    },
+    "OnlineStore.Service.Serializer.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../OnlineStore.Service.Serializer.Abstractions/OnlineStore.Service.Serializer.Abstractions.csproj",
+      "msbuildProject": "../OnlineStore.Service.Serializer.Abstractions/OnlineStore.Service.Serializer.Abstractions.csproj"
+    },
+    "OnlineStore.Service.Serializer.Yaml/1.0.0": {
+      "type": "project",
+      "path": "../OnlineStore.Service.Serializer.Yaml/OnlineStore.Service.Serializer.Yaml.csproj",
+      "msbuildProject": "../OnlineStore.Service.Serializer.Yaml/OnlineStore.Service.Serializer.Yaml.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "NLog >= 5.2.8",
-      "OnlineStore.DataAccess >= 1.0.0"
+      "OnlineStore.DataAccess >= 1.0.0",
+      "OnlineStore.Service.Caching >= 1.0.0",
+      "OnlineStore.Service.CachingAbstractions >= 1.0.0",
+      "OnlineStore.Service.Serializer.Yaml >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2066,6 +2249,15 @@
           "projectReferences": {
             "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj": {
               "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj"
+            },
+            "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj": {
+              "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj"
+            },
+            "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching\\OnlineStore.Service.Caching.csproj": {
+              "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching\\OnlineStore.Service.Caching.csproj"
+            },
+            "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Yaml\\OnlineStore.Service.Serializer.Yaml.csproj": {
+              "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Yaml\\OnlineStore.Service.Serializer.Yaml.csproj"
             }
           }
         }

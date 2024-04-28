@@ -1,4 +1,7 @@
-﻿using System.Text;
+﻿using Newtonsoft.Json;
+using System.Globalization;
+using System.Reflection;
+using System.Text;
 
 namespace OnlineStore.Domain.User;
 
@@ -34,11 +37,6 @@ public sealed class UserParameters
 
             return loginBuilder.ToString();
         }
-
-        public static bool IsValid()
-        {
-            return false;
-        }
     }
 
     public sealed class Password
@@ -64,10 +62,54 @@ public sealed class UserParameters
 
             return loginBuilder.ToString();
         }
+    }
 
-        public static bool IsValid()
+    public sealed class UserGeolocation
+    {
+        public static async Task<Location> GetLocationAsync()
         {
-            return false;
+            using HttpClient client = new HttpClient();
+
+            string ipAddress = await client.GetStringAsync("https://api.ipify.org");
+            string info = await client.GetStringAsync($"http://ipinfo.io/{ipAddress}");
+
+            IpInfo ipInfo = JsonConvert.DeserializeObject<IpInfo>(info);
+
+            RegionInfo region = new RegionInfo(ipInfo.Country);
+            ipInfo.Country = region.EnglishName;
+
+            Location location = new Location();
+
+            PropertyInfo[] locationProperties = location.GetType().GetProperties();
+            PropertyInfo[] ipInfoProperties = ipInfo.GetType().GetProperties();
+
+            foreach (PropertyInfo locationProperty in locationProperties)
+            {
+                PropertyInfo? ipInfoProperty = ipInfoProperties.FirstOrDefault(pi => pi.Name == locationProperty.Name);
+
+                if (ipInfoProperty != null)
+                    locationProperty.SetValue(location, ipInfoProperty.GetValue(ipInfo));
+            }
+
+            return location;
+        }
+
+        private sealed class IpInfo
+        {
+            [JsonProperty("hostname")]
+            internal string Hostname { get; set; }
+
+            [JsonProperty("street")]
+            internal string Street { get; set; }
+
+            [JsonProperty("city")]
+            internal string City { get; set; }
+
+            [JsonProperty("region")]
+            internal string Region { get; set; }
+
+            [JsonProperty("country")]
+            internal string Country { get; set; }
         }
     }
 }

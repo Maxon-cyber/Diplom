@@ -6,7 +6,7 @@ namespace OnlineStore.UI.Mvp.Controller;
 
 public interface IApplicationController
 {
-    public IDIContainer Container { get; }
+    public IIoCContainer Container { get; }
 
     public IAppConfiguration Configuration { get; }
 

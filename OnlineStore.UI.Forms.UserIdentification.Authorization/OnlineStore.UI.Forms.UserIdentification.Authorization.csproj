@@ -22,6 +22,7 @@
     <ProjectReference Include="..\OnlineStore.DataAccess.Providers.Relational.Abstractions\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj" />
     <ProjectReference Include="..\OnlineStore.DataAccess\OnlineStore.DataAccess.csproj" />
     <ProjectReference Include="..\OnlineStore.UI.Forms.MainWindow.Tabs.ProductShowcase\OnlineStore.UI.Forms.MainWindow.Tabs.ProductShowcase.csproj" />
+    <ProjectReference Include="..\OnlineStore.UI.Forms.MainWindow.Tabs.ProductView\OnlineStore.UI.Forms.MainWindow.Tabs.ProductView.csproj" />
     <ProjectReference Include="..\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard\OnlineStore.UI.Forms.MainWindow.Tabs.ShoppingCard.csproj" />
     <ProjectReference Include="..\OnlineStore.UI.Forms.MainWindow.Tabs.UserAccount\OnlineStore.UI.Forms.MainWindow.Tabs.UserAccount.csproj" />
     <ProjectReference Include="..\OnlineStore.UI.Forms.MainWindow\OnlineStore.UI.Forms.MainWindow.csproj" />

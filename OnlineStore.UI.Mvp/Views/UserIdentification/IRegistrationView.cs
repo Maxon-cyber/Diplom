@@ -6,7 +6,5 @@ public interface IRegistrationView : IView
 
     event Action ReturnToAuthorization;
 
-    TextBox[] UserInput { get; }
-
     UserControl Instance { get; }
 }

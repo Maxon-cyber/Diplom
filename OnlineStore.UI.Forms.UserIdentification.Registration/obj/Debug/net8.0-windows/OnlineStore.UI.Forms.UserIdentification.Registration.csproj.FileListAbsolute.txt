@@ -5,6 +5,7 @@ C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.R
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.UserIdentification.Registration.AssemblyInfoInputs.cache
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.UserIdentification.Registration.AssemblyInfo.cs
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.UserIdentification.Registration.csproj.CoreCompileInputs.cache
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\obj\Debug\net8.0-windows\OnlineStore.UI.Forms.UserIdentification.Registration.sourcelink.json
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.UI.Forms.UserIdentification.Registration.deps.json
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.UI.Forms.UserIdentification.Registration.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.UI.Forms.UserIdentification.Registration.pdb
@@ -13,6 +14,7 @@ C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.R
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Infrastructure.ADO.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Abstractions.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.dll
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Repositories.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.Domain.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.Service.dll
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.UI.Mvp.Configuration.dll
@@ -24,6 +26,7 @@ C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.R
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Infrastructure.ADO.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Abstractions.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.pdb
+C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.DataAccess.Providers.Relational.Repositories.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.Domain.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.Service.pdb
 C:\Users\рс\source\repos\OnlineStore\OnlineStore.UI.Forms.UserIdentification.Registration\bin\Debug\net8.0-windows\OnlineStore.UI.Mvp.Configuration.pdb

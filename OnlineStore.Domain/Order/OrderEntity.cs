@@ -1,4 +1,4 @@
-﻿using OnlineStore.Domain.Attributes;
+﻿using OnlineStore.Domain.Common.Attributes;
 using OnlineStore.Domain.Product;
 using System.Data;
 
@@ -6,18 +6,18 @@ namespace OnlineStore.Domain.Order;
 
 public sealed class OrderEntity : Entity
 {
-    [ColumnData(ColumnName = "user_id", SqlDbType = SqlDbType.BigInt)]
+    [ColumnData(ColumnName = "user_id", DbType = DbType.UInt64)]
     public ulong UserId { get; init; }
 
-    [ColumnData(ColumnName = "products", SqlDbType = SqlDbType.Xml)]
+    [ColumnData(ColumnName = "products", DbType = DbType.Xml)]
     public IList<ProductEntity> Products { get; init; }
 
-    [ColumnData(ColumnName = "total_amount", SqlDbType = SqlDbType.Money)]
+    [ColumnData(ColumnName = "total_amount", DbType = DbType.Decimal)]
     public decimal TotalAmount { get; init; }
 
-    [ColumnData(ColumnName = "order_date", SqlDbType = SqlDbType.SmallDateTime)]
+    [ColumnData(ColumnName = "order_date", DbType = DbType.DateTime2)]
     public DateTime OrderDate { get; init; }
 
-    [ColumnData(ColumnName = "status", SqlDbType = SqlDbType.NChar)]
+    [ColumnData(ColumnName = "status", DbType = DbType.String)]
     public Status Status { get; init; }
 }

@@ -104,6 +104,9 @@
             "projectReferences": {
               "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.csproj": {
                 "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Abstractions\\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Abstractions\\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj"
               }
             }
           }
@@ -340,6 +343,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

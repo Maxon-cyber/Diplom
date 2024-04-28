@@ -1,13 +1,12 @@
 ﻿using OnlineStore.UI.Mvp.Configuration;
 using OnlineStore.UI.Mvp.DI;
 using OnlineStore.UI.Mvp.Presenters;
-using System;
 
 namespace OnlineStore.UI.Mvp.Controller;
 
-public sealed class ApplicationController(IDIContainer container, IAppConfiguration configuration) : IApplicationController
+public sealed class ApplicationController(IIoCContainer container, IAppConfiguration configuration) : IApplicationController
 {
-    public IDIContainer Container { get; } = container;
+    public IIoCContainer Container { get; } = container;
 
     public IAppConfiguration Configuration { get; } = configuration;
 
@@ -39,13 +38,6 @@ public sealed class ApplicationController(IDIContainer container, IAppConfigurat
         presenter.Run(parentControl, childControl);
     }
 
-    public void Run<TPresenter, TArgument>(TArgument argument, Control parentControl, UserControl childControl)
-        where TPresenter : class, IPresenter<TArgument>
-    {
-        TPresenter presenter = Container.Resolve<TPresenter>();
-        presenter.RunAsChildComponent(argument, parentControl, childControl);
-    }
-
     public void Run<TPresenter>(Action action)
         where TPresenter : class, IPresenter
     {
@@ -64,5 +56,15 @@ public sealed class ApplicationController(IDIContainer container, IAppConfigurat
         where TPresenter : class, IPresenter
     {
         Run<TPresenter>(parentControl, childControl);
+    }
+
+    void IApplicationController.Run<TPresenter, TArgument>(Action<TPresenter> action)
+    {
+        throw new NotImplementedException();
+    }
+
+    void IApplicationController.Run<TPresenter, TArgument>(TArgument argument, Control parentControl, UserControl childControl)
+    {
+        throw new NotImplementedException();
     }
 }

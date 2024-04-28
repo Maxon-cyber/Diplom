@@ -1,22 +1,22 @@
 ﻿using OnlineStore.Domain.User;
 using OnlineStore.Service;
-using OnlineStore.Service.User;
-using OnlineStore.UI.Mvp.Common;
+using OnlineStore.Service.SqlServer.User;
 using OnlineStore.UI.Mvp.Controller;
 using OnlineStore.UI.Mvp.Presenters.Abstractions;
 using OnlineStore.UI.Mvp.Presenters.MainWindow;
 using OnlineStore.UI.Mvp.Views.UserIdentification;
+using System.Text;
 
 namespace OnlineStore.UI.Mvp.Presenters.UserIdentification;
 
 public sealed class AuthorizationPresenter : Presenter<IAuthorizationView>
 {
-    private readonly IUserService _userService;
+    private readonly UserService _userService;
 
     public AuthorizationPresenter(IApplicationController controller, IAuthorizationView view, ServiceFacade service)
         : base(controller, view)
     {
-        _userService = service.User;
+        _userService = service.SqlServer.User;
 
         View.Authorization += Login;
         View.Registration += Registration;
@@ -24,21 +24,25 @@ public sealed class AuthorizationPresenter : Presenter<IAuthorizationView>
 
     private async void Login()
     {
-        TextBox[] textBoxes = View.Instance.Controls.OfType<TextBox>().ToArray();
+        TextBox[] textBoxes = View.Instance.Controls.Find("panelMain", false)
+                             .FirstOrDefault()
+                             .Controls
+                             .OfType<TextBox>()
+                             .ToArray();
 
         UserEntity? user = await _userService.GetByAsync(new UserEntity
         {
             Login = textBoxes.FirstOrDefault(tb => tb.Name == "textBoxLogin").Text,
-            Password = textBoxes.FirstOrDefault(tb => tb.Name == "textBoxPassword").Text
+            Password = Encoding.UTF8.GetBytes(textBoxes.FirstOrDefault(tb => tb.Name == "textBoxPassword").Text.ToCharArray())
         });
 
         if (user == null)
         {
-            View.ShowMessage("Неправильный логин или пароль", MessageLevel.Error);
+            MessageBox.Show("Неправильный логин или пароль", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
         }
 
-        View.ShowMessage($"Добро Пожаловать, {user}!");
+        MessageBox.Show($"Добро Пожаловать, {user}!", "Добро пожаловать", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         switch (user.Role)
         {

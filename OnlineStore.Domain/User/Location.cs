@@ -1,21 +1,23 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using OnlineStore.Domain.Common.Attributes;
+using System.Data;
+using System.Diagnostics.CodeAnalysis;
 
 namespace OnlineStore.Domain.User;
 
-public sealed class Location()
+public sealed class Location() : Entity
 {
-    [NotNull]
+    [ColumnData(ColumnName = "house_number", DbType = DbType.String)]
     public string HouseNumber { get; set; }
 
-    [NotNull]
+    [ColumnData(ColumnName = "street", DbType = DbType.String)]
     public string Street { get; set; }
 
-    [NotNull]
+    [ColumnData(ColumnName = "city", DbType = DbType.String)]
     public string City { get; init; }
 
-    [NotNull]
+    [ColumnData(ColumnName = "region", DbType = DbType.String)]
     public string Region { get; init; }
 
-    [NotNull]
+    [ColumnData(ColumnName = "country", DbType = DbType.String)]
     public string Country { get; init; }
 }

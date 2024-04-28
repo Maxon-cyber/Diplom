@@ -4,6 +4,889 @@
     "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Forms.MainWindow.Tabs.ProductView\\OnlineStore.UI.Forms.MainWindow.Tabs.ProductView.csproj": {}
   },
   "projects": {
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.csproj",
+        "projectName": "OnlineStore.DataAccess.Providers.Infrastructure.Abstractions",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.ADO\\OnlineStore.DataAccess.Providers.Infrastructure.ADO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.ADO\\OnlineStore.DataAccess.Providers.Infrastructure.ADO.csproj",
+        "projectName": "OnlineStore.DataAccess.Providers.Infrastructure.ADO",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.ADO\\OnlineStore.DataAccess.Providers.Infrastructure.ADO.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.ADO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Abstractions\\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Abstractions\\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Abstractions\\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Abstractions\\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj",
+        "projectName": "OnlineStore.DataAccess.Providers.Relational.Abstractions",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Abstractions\\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions\\OnlineStore.DataAccess.Providers.Infrastructure.Abstractions.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.csproj",
+        "projectName": "OnlineStore.DataAccess.Providers.Relational.Database.SqlServer",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.ADO\\OnlineStore.DataAccess.Providers.Infrastructure.ADO.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Infrastructure.ADO\\OnlineStore.DataAccess.Providers.Infrastructure.ADO.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Abstractions\\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Abstractions\\OnlineStore.DataAccess.Providers.Relational.Abstractions.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Repositories\\OnlineStore.DataAccess.Providers.Relational.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Repositories\\OnlineStore.DataAccess.Providers.Relational.Repositories.csproj",
+        "projectName": "OnlineStore.DataAccess.Providers.Relational.Repositories",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Repositories\\OnlineStore.DataAccess.Providers.Relational.Repositories.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj",
+        "projectName": "OnlineStore.DataAccess",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer\\OnlineStore.DataAccess.Providers.Relational.Database.SqlServer.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Repositories\\OnlineStore.DataAccess.Providers.Relational.Repositories.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess.Providers.Relational.Repositories\\OnlineStore.DataAccess.Providers.Relational.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj",
+        "projectName": "OnlineStore.Domain",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj",
+        "projectName": "OnlineStore.Service.CachingAbstractions",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching\\OnlineStore.Service.Caching.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching\\OnlineStore.Service.Caching.csproj",
+        "projectName": "OnlineStore.Service.Caching",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching\\OnlineStore.Service.Caching.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Abstractions\\OnlineStore.Service.Serializer.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Abstractions\\OnlineStore.Service.Serializer.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Abstractions\\OnlineStore.Service.Serializer.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Abstractions\\OnlineStore.Service.Serializer.Abstractions.csproj",
+        "projectName": "OnlineStore.Service.Serializer.Abstractions",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Abstractions\\OnlineStore.Service.Serializer.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Yaml\\OnlineStore.Service.Serializer.Yaml.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Yaml\\OnlineStore.Service.Serializer.Yaml.csproj",
+        "projectName": "OnlineStore.Service.Serializer.Yaml",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Yaml\\OnlineStore.Service.Serializer.Yaml.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Yaml\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Abstractions\\OnlineStore.Service.Serializer.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Abstractions\\OnlineStore.Service.Serializer.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service\\OnlineStore.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service\\OnlineStore.Service.csproj",
+        "projectName": "OnlineStore.Service",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service\\OnlineStore.Service.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.DataAccess\\OnlineStore.DataAccess.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching,Abstractions\\OnlineStore.Service.CachingAbstractions.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching\\OnlineStore.Service.Caching.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Caching\\OnlineStore.Service.Caching.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Yaml\\OnlineStore.Service.Serializer.Yaml.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service.Serializer.Yaml\\OnlineStore.Service.Serializer.Yaml.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Forms.MainWindow.Tabs.ProductView\\OnlineStore.UI.Forms.MainWindow.Tabs.ProductView.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +915,11 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp\\OnlineStore.UI.Mvp.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp\\OnlineStore.UI.Mvp.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -49,6 +936,251 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.Configuration\\OnlineStore.UI.Mvp.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.Configuration\\OnlineStore.UI.Mvp.Configuration.csproj",
+        "projectName": "OnlineStore.UI.Mvp.Configuration",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.Configuration\\OnlineStore.UI.Mvp.Configuration.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NetEscapades.Configuration.Yaml": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.DI\\OnlineStore.UI.Mvp.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.DI\\OnlineStore.UI.Mvp.DI.csproj",
+        "projectName": "OnlineStore.UI.Mvp.DI",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.DI\\OnlineStore.UI.Mvp.DI.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp\\OnlineStore.UI.Mvp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp\\OnlineStore.UI.Mvp.csproj",
+        "projectName": "OnlineStore.UI.Mvp",
+        "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp\\OnlineStore.UI.Mvp.csproj",
+        "packagesPath": "C:\\Users\\рс\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\рс\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service\\OnlineStore.Service.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.Service\\OnlineStore.Service.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.Configuration\\OnlineStore.UI.Mvp.Configuration.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.Configuration\\OnlineStore.UI.Mvp.Configuration.csproj"
+              },
+              "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.DI\\OnlineStore.UI.Mvp.DI.csproj": {
+                "projectPath": "C:\\Users\\рс\\source\\repos\\OnlineStore\\OnlineStore.UI.Mvp.DI\\OnlineStore.UI.Mvp.DI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NetEscapades.Configuration.Yaml": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
